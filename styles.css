@@ -17,11 +17,10 @@ body {
     font-weight: bold;
     text-align: center;
     padding: 8px;
-    
-
   }
   
-  .content {
+  .recipe-links {
+    display: flex;
     background: #e3f4ff;
     margin-bottom: 8px;
     padding: 16px 8px;
