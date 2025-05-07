@@ -1,6 +1,7 @@
 /*styles.css*/
 body {
-    background: #eee;
+    background-image: url('./images/ingredients2.jpg');
+    background-size: cover;
     font-family: "Ariel", sans-serif;
   }
   
@@ -12,16 +13,13 @@ body {
   }
   
   .title {
-    background: #82bee5;
-    font-size: 40px;
-    font-weight: bold;
+    background: #EADDCA;
     text-align: center;
     padding: 8px;
   }
   
   .recipe-links {
     display: flex;
-    background: #e3f4ff;
     margin-bottom: 8px;
     padding: 16px 8px;
   }
