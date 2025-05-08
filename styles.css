@@ -3,39 +3,48 @@ body {
     background-image: url('./images/ingredients2.jpg');
     background-size: cover;
     font-family: "Ariel", sans-serif;
-  }
-  
-  .card {
-    width: 400px;
-    background: #fff;
-    margin: 16px auto;
-    border: 
+    display: block
   }
   
   .title {
-    background: #EADDCA;
     text-align: center;
     padding: 8px;
-    border: 8px, #c1e1c1;
+    border: 20px, #c1e1c1;
   }
   
-  .recipe-links {
+  .button-image-container {
     display: flex;
-    margin-bottom: 8px;
-    padding: 16px 8px;
-  }
-  
-  .button-container {
-    background: #e3f4ff;
-    text-align: center;
+    flex-direction: column;
+    align-content: space-between;
     padding: 8px;
+    border: 4px #c1e1c1;
   }
-  
-  button {
-    background: white;
-    border: 1px solid #eee;
-    display: block;
+
+  .button-image-container > * {
+    padding: 20px;
+    border: 2px solid grey;
+    border-radius: 5px;
+    background-color: rgb(96 139 168 / 0.2);
+    flex: 1 1 auto;
+  }
+  .button-image-container div {
+    background-color: rgb(96 139 168 / 0.2);
+    border: 2px solid grey;
+    border-radius: 5px;
+    padding: 20px;
+    align-content: center;
+  }
+
+  .button {
+    background: rgb(255, 255, 255);
+    border: 1px solid #c1e1c1;
+    display: flex;
     margin: 0 auto;
     padding: 8px 24px;
   }
   
+  img {
+    display: block;
+    margin: auto;
+  }
+  ]
