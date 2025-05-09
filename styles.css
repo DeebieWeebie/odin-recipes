@@ -15,9 +15,8 @@ body {
     flex-direction:row;
     flex-wrap: wrap;
     padding: 8px;
-    border: 4px #c1e1c1;
+    border: 10px #c1e1c1;
     justify-content: center;
-    align-self: center;
   }
   
   .button-image-container div {
@@ -35,6 +34,7 @@ body {
     display: flex;
     margin: auto;
     padding: 8px 24px;
+    font-family: inherit;
   }
   
   img {
@@ -47,15 +47,17 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    align-self: center;
   }
 
   .credits-container div {
-    display: flex;
     background-color: rgb(96 139 168 / 0.2);
     border: 2px solid grey;
     border-radius: 5px;
-    padding:10px;
-    align-content: center;
+    align-self: center;
     margin: auto
+  }
+
+  .list {
+    font-family: inherit;
+    padding-right: 15px;
   }
