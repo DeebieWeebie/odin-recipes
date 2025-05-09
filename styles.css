@@ -3,36 +3,33 @@ body {
     background-image: url('./images/ingredients2.jpg');
     background-size: cover;
     font-family: "Ariel", sans-serif;
-    display: block
+    display: flex;
+    flex-direction: column;
   }
   
   .title {
     text-align: center;
-    padding: 8px;
-    border: 20px, #c1e1c1;
+    display: block;
   }
   
   .button-image-container {
     display: flex;
-    flex-direction: column;
-    align-content: space-between;
+    flex-direction:row
+    flex-wrap: wrap;
     padding: 8px;
     border: 4px #c1e1c1;
+    justify-content: center;
+    align-self: center;
+    margin: auto;
   }
 
-  .button-image-container > * {
-    padding: 20px;
-    border: 2px solid grey;
-    border-radius: 5px;
-    background-color: rgb(96 139 168 / 0.2);
-    flex: 1 1 auto;
-  }
   .button-image-container div {
     background-color: rgb(96 139 168 / 0.2);
     border: 2px solid grey;
     border-radius: 5px;
     padding: 20px;
     align-content: center;
+    
   }
 
   .button {
