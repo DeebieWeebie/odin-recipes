@@ -26,17 +26,37 @@ body {
     padding: 10px;
     align-content: center;
     margin-left: 20px;
+
   }
 
   .button {
-    background: rgb(255, 255, 255);
-    border: 1px solid #c1e1c1;
+    border: 2px solid grey;
     display: flex;
     margin: auto;
     padding: 8px 24px;
     font-family: inherit;
+    background-color: rgb(96 139 168 / 0.2);
+    text-decoration: none;
+  }
+
+  .button:hover {
+    background-color: #c1e1c1;
   }
   
+  a {
+   color: black;
+   text-decoration: none;
+  }
+
+  a:active {
+    color: blue;
+  }
+
+  a:focus[tabindex]:focus {
+    color: blue;
+    outline: none;
+  }
+
   img {
     display: block;
     margin: auto;
