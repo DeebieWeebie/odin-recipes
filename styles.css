@@ -7,7 +7,6 @@ body {
   
   .title {
     text-align: center;
-    display: block;
   }
   
   .button-image-container {
@@ -43,7 +42,7 @@ body {
     background-color: #c1e1c1;
   }
   
-  a {
+  a{
    color: black;
    text-decoration: none;
   }
@@ -52,7 +51,7 @@ body {
     color: blue;
   }
 
-  a:focus[tabindex]:focus {
+  a[tabindex]:focus {
     color: blue;
     outline: none;
   }
@@ -60,13 +59,14 @@ body {
   img {
     display: block;
     margin: auto;
-    margin-top: 10px;
   }
 
   .container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: -10px;
   }
 
   .container div {
@@ -79,5 +79,5 @@ body {
 
   .list {
     font-family: inherit;
-    padding-right: 15px;
+    padding: 0px 30px 0px 10px;
   }
