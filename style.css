@@ -1,0 +1,88 @@
+/*style.css for linked recipes*/
+body {
+    background-image: url('./images/ingredients2.jpg');
+    background-size: cover;
+    font-family: "Ariel", sans-serif;
+  }
+  
+  .title {
+    text-align: center;
+    display: block;
+  }
+  
+  .button-image-container {
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    padding: 8px;
+    border: 10px #c1e1c1;
+    justify-content: center;
+  }
+  
+  .button-image-container div {
+    background-color: rgb(96 139 168 / 0.2);
+    border: 2px solid grey;
+    border-radius: 5px;
+    padding: 10px;
+    align-content: center;
+    margin-left: 20px;
+
+  }
+
+  .button {
+    border: 2px solid grey;
+    display: flex;
+    margin: auto;
+    padding: 8px 24px;
+    font-family: inherit;
+    background-color: rgb(96 139 168 / 0.2);
+    text-decoration: none;
+  }
+
+  .button:hover {
+    background-color: #c1e1c1;
+  }
+  
+  a{
+   color: black;
+   text-decoration: none;
+  }
+
+  a:active {
+    color: blue;
+  }
+
+  a[tabindex]:focus {
+    color: blue;
+    outline: none;
+  }
+
+  img {
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .container div {
+    background-color: rgb(96 139 168 / 0.2);
+    border: 2px solid grey;
+    border-radius: 5px;
+    align-self: center;
+    margin: auto
+  }
+
+  .list {
+    font-family: inherit;
+    padding-right: 15px;
+  }
+
+  P [
+
+
+  ]
